@@ -1,9 +1,10 @@
 package com.example.diesel.testtask;
 
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -17,12 +18,17 @@ import com.example.diesel.testtask.db.Thing;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
-        ItemFragment.OnListFragmentInteractionListener {
+        ItemFragment.OnListFragmentInteractionListener,
+        ScalingFragment.OnFragmentInteractionListener {
 
     @Override
     public void onListFragmentInteraction(Thing thing) {
     }
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,7 +91,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_list) {
             fragmentClass = ItemFragment.class;
         } else if (id == R.id.nav_scaling) {
-
+            fragmentClass = ScalingFragment.class;
         } else if (id == R.id.nav_parsing) {
 
         } else if (id == R.id.nav_map) {

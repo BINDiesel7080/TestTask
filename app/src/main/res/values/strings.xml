@@ -17,4 +17,10 @@
     <string name="thing_dialog_cancel">REVERT</string>
     <string name="context_item_edit">Edit</string>
     <string name="context_item_delete">Delete</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="browse_image">Выбрать фото</string>
+    <string name="make_photo">Сделать фото</string>
 </resources>
