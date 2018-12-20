@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test Task</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_item_list">List</string>
+    <string name="nav_item_scaling">Scaling</string>
+    <string name="nav_item_parsing">Parsing</string>
+    <string name="nav_item_map">Map</string>
+    <string name="hint_thing">Thing properties</string>
+    <string name="hint_thing_title">Title</string>
+    <string name="hint_thing_checked">Checked</string>
+    <string name="thing_dialog_ok">DONE</string>
+    <string name="thing_dialog_cancel">REVERT</string>
+    <string name="context_item_edit">Edit</string>
+    <string name="context_item_delete">Delete</string>
+</resources>
