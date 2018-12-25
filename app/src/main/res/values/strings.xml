@@ -23,4 +23,7 @@
 
     <string name="browse_image">Выбрать фото</string>
     <string name="make_photo">Сделать фото</string>
+
+    <string name="zoom_image">+</string>
+    <string name="unzoom_image">-</string>
 </resources>

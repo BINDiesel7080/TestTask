@@ -19,7 +19,8 @@ import com.example.diesel.testtask.db.Thing;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         ItemFragment.OnListFragmentInteractionListener,
-        ScalingFragment.OnFragmentInteractionListener {
+        ScalingFragment.OnFragmentInteractionListener,
+        ImageFragment.OnFragmentInteractionListener {
 
     @Override
     public void onListFragmentInteraction(Thing thing) {
